@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Font Awesome -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+			integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- Styles -->
+		<link rel="stylesheet" href="css/main.css" />
+		<!-- Scripts -->
+		<script defer src="js/script.js"></script>
+		<title>Day 03 - Rotating Navigation</title>
+	</head>
+	<body>
+		<div class="container">
+			<main class="content">
+				<h1>Amazing World</h1>
+				<small>Ciel A.</small>
+				<p>
+					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam quam aliquid molestias
+					saepe cum eius quisquam impedit perferendis unde adipisci id aut sapiente, rem velit ea
+					perspiciatis repellendus cumque atque officiis exercitationem maiores amet. Vero
+					temporibus, distinctio sint, ipsa porro vitae nisi doloribus, earum laudantium unde velit
+					qui quas quasi? Ea inventore expedita at facilis vero minus.
+				</p>
+				<h2>Photo</h2>
+				<img src="./imgs/jellyfish.jpg" alt="A photo" />
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi iure amet sint quo nam
+					impedit nesciunt ipsa saepe natus nostrum! Enim beatae totam quas dolor nostrum et modi
+					earum ipsa consectetur sapiente incidunt rerum necessitatibus accusamus sint
+					exercitationem, porro officia. Numquam provident obcaecati, incidunt laboriosam expedita
+					nesciunt, quaerat debitis earum exercitationem a culpa voluptate excepturi facilis! Porro
+					perspiciatis laudantium assumenda.
+				</p>
+			</main>
+		</div>
+		<div class="circle-container">
+			<div class="circle">
+				<button id="close">
+					<i class="fas fa-times"></i>
+				</button>
+				<button id="open">
+					<i class="fas fa-bars"></i>
+				</button>
+			</div>
+		</div>
+		<nav class="nav">
+			<ul class="nav__list">
+				<li class="nav__list-item">
+					<i class="fas fa-home nav__icon"><a href="#" class="nav__link"> Home</a></i>
+				</li>
+				<li class="nav__list-item">
+					<i class="fas fa-user-alt nav__icon"><a href="#" class="nav__link"> About</a></i>
+				</li>
+				<li class="nav__list-item">
+					<i class="fas fa-envelope nav__icon"><a href="#" class="nav__link"> Contact</a></i>
+				</li>
+			</ul>
+		</nav>
+	</body>
+</html>
