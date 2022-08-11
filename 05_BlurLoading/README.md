@@ -1,4 +1,4 @@
-# Day 05 - Hidden Search Bar
+# Day 05 - Blur Loading Page
 
 Overlay with percentage of progress that fades and blur effect on the images.
 
