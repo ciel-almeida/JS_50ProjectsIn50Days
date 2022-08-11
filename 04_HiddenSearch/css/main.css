@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(60, 60, 60);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.search {
+  position: relative;
+  /* Applyig the new width when the input has the class active */
+}
+.search__input {
+  padding: 0.8rem;
+  font-size: 1.2rem;
+  outline: none;
+  border: none;
+  width: 3.5rem;
+  border-radius: 3px;
+  transition: width 0.3s ease;
+}
+.search__button {
+  position: absolute;
+  width: 3.5rem;
+  height: 100%;
+  top: 0;
+  right: 0;
+}
+.search__input.search__input--active {
+  width: 350px;
+  /* Moving the button element next (+) to the side when
+  there is an active class in the search input */
+}
+.search__input.search__input--active + .search__button {
+  transform: translateX(3.55rem);
+  transition: transform 0.3s ease;
+}
+
+/*# sourceMappingURL=main.css.map */
