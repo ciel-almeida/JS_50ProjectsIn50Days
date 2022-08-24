@@ -1,0 +1,60 @@
+@use 'reset';
+@use 'variables';
+
+html {
+	height: 100%;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	width: 100%;
+	height: 100%;
+	background-color: rgb(60, 60, 60);
+}
+
+.keycode {
+	min-height: 100vh;
+	padding: 2rem 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding-bottom: 2rem;
+
+	&__display {
+		text-align: center;
+		color: white;
+		font-size: calc(12rem + 2vw);
+		font-weight: lighter;
+		padding: 2rem 1rem;
+	}
+
+	&__wrapper {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 15px;
+	}
+
+	&__card {
+		text-align: center;
+		background-color: rgb(89, 84, 84);
+		border-radius: 5px;
+		width: 15rem;
+		color: white;
+
+		&-header {
+			background-color: rgb(96, 96, 250);
+			color: white;
+			border-top-left-radius: 5px;
+			border-top-right-radius: 5px;
+			font-size: 0.8rem;
+			padding: 0.2rem 0;
+		}
+
+		&-body {
+			font-size: 1.4rem;
+			padding: 0.6rem 0;
+		}
+	}
+}
