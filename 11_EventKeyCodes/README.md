@@ -1,5 +1,7 @@
 ### Desktop Preview
 
+Show informations about the key pressed.
+
 <h1 align="center">
   <img alt="Desktop preview" src="imgs/preview-imgs/desktop.jpg" />
 </h1>
